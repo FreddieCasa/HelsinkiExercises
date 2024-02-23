@@ -1,0 +1,41 @@
+footer{
+
+    background-color:  hsl(243, 87%, 12%);
+}
+
+.main_lastsection{
+    background-color: hsl(238, 22%, 44%)
+}
+
+body{
+    font-family: 'Fraunces', serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size:1rem;
+}
+
+.main_lastsection, footer{
+  color:white;
+}
+
+.main_midsection{
+  background-color:  hsl(240, 75%, 98%);
+}
+
+
+@media only screen and (max-width: 375px) {
+
+} 
+
+h1, h2, h3 {
+    font-family: 'Fraunces', serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Raleway', sans-serif;
+}

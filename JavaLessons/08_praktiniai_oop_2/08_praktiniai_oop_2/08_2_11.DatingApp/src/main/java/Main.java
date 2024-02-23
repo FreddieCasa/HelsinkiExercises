@@ -1,0 +1,34 @@
+
+public class Main {
+
+    public static void main(String[] args) {
+        // test your program here!
+        SimpleDate date = new SimpleDate(13, 2, 2015);
+        SimpleDate newDate = date.afterNumberOfDays(7);
+
+//        for (int i = 1; i <= 30; i++) {
+//            for (int j = 1; j <= 12; j++) {
+//                date.advance();
+//                System.out.println(date);
+//            }
+//        }
+
+////        date.advance(90);
+//        System.out.println(date);
+//        System.out.println(newDate);
+
+        int week = 1;
+        while (week <= 7) {
+            System.out.println("Friday after " + week + " weeks is " + newDate);
+            newDate = newDate.afterNumberOfDays(7);
+
+            week = week + 1;
+        }
+
+
+        System.out.println("The date after 790 days from the examined Friday is ... try it out yourself!");
+
+
+
+    }
+}
